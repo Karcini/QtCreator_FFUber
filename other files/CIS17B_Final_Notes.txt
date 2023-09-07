@@ -1,0 +1,19 @@
+Overview of Deliverable
+	My POS app is a traveling system that allows you to setup trips from location to location.  The available items being sold is the list of trips you can create.  Each of which consists of a driver, and a list of traveling locations.  The GUI is intuitive and will not let the user select information that does not make sense.  You can only add destinations when the parameters of a trip are selected.  You cannot select a different driver once one has been chosen to ferry you.  You cannot add a destination if your destination is at the same location.  And every time you add a destination, your "from" location gets locked as your last "to" location, because that is where you would be.  All information regardless is shown on a display that gets updated on every action, and you can make a confirmation when the trip is desirable.
+	
+	Because my POS system sells taxi rides and because I am using a database for all saved information.  Transactions are saved onto the database under table_transaction(id, date, ridername, drivername, starting destination, ending destination, price with fee included).  This table will be populated as trips are confirmed by the user.  Along with this, an additional .txt file is saved to hold more 'receipt' looking information of the trip that was confirmed.
+
+	Additionally you can sign up riders and drivers to add them to the database.  And then login to rider accounts and add a history of transactions.  Note that table_transaction on mydb.db is initially empty.
+
+
+
+
+
+KNOWN BUGS
+	-There is a duplicate call being made to the database 'transaction' connection somewhere.  Completing a transaction will get you the following on the application output.  Does not seem to affect any data being saved or output and can handle multiple trips, logins, signups, and more trips, on the same session.
+	QSqlDatabasePrivate::removeDatabase: connection 'transaction' is still in use, all queries will cease to work.
+	QSqlDatabasePrivate::addDatabase: duplicate connection name 'transaction', old connection removed.
+
+	-There is a confusing name for the class 'DestinationsDB'.  The class was shifted to be more of a database object and not just a database for locations.  I'm afraid of breaking everything by renaming it.
+
+	-There is a logic error feature on signing up new drivers and riders.  The signup form checks for input in each box but can be bypassed if you enter input and remove it.  However, a driver or rider will not be added to the database if the information on the form does not fit the right parameters.  You are given a message when the signup did not understand the form information.

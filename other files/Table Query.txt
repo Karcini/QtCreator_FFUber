@@ -1,0 +1,263 @@
+CREATE TABLE IF NOT EXISTS table_destinations (name varchar(20), price integer, path varchar(4), parentid integer);
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Limsa Lominsa', 0, '1/1', 0);
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Limsa Lominsa', 0, '1/2', 1);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ul dah', 465, '1/2', 1);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gridania', 617, '1/2', 1);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ishgard', 523, '1/2', 1);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Sharlavan', 1034, '1/2', 1);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ala Mhigo', 936, '1/2', 1);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gyn Abania', 859, '1/2', 1);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Mor Dhonna', 405, '1/2', 1);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Dravania', 483, '1/2', 1);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Garlean Empire', 1355, '1/2', 1);
+
+
+
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ul dah', 0, '2/1', 0);
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Limsa Lominsa', 456, '2/2', 2);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ul dah', 0, '2/2', 2);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gridania', 514, '2/2', 2);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ishgard', 576, '2/2', 2);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Sharlavan', 1220, '2/2', 2);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ala Mhigo', 719, '2/2', 2);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gyn Abania', 721, '2/2', 2);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Mor Dhonna', 346, '2/2', 2);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Dravania', 781, '2/2', 2);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Garlean Empire', 1300, '2/2', 2);
+
+
+
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gridania', 0, '3/1', 0);
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Limsa Lominsa', 617, '3/2', 3);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ul dah', 514, '3/2', 3);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gridania', 0, '3/2', 3);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ishgard', 315, '3/2', 3);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Sharlavan', 1280, '3/2', 3);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ala Mhigo', 322, '3/2', 3);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gyn Abania', 240, '3/2', 3);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Mor Dhonna', 323, '3/2', 3);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Dravania', 667, '3/2', 3);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Garlean Empire', 1016, '3/2', 3);
+
+
+
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ishgard', 0, '4/1', 0);
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Limsa Lominsa', 523, '4/2', 4);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ul dah', 576, '4/2', 4);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gridania', 315, '4/2', 4);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ishgard', 0, '4/2', 4);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Sharlavan', 976, '4/2', 4);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ala Mhigo', 603, '4/2', 4);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gyn Abania', 471, '4/2', 4);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Mor Dhonna', 305, '4/2', 4);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Dravania', 483, '4/2', 4);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Garlean Empire', 1125, '4/2', 4);
+
+
+
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Sharlavan', 0, '5/1', 0);
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Limsa Lominsa', 1034, '5/2', 5);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ul dah', 1220, '5/2', 5);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gridania', 1280, '5/2', 5);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ishgard', 976, '5/2', 5);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Sharlavan', 0, '5/2', 5);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ala Mhigo', 1286, '5/2', 5);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gyn Abania', 1188, '5/2', 5);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Mor Dhonna', 1066, '5/2', 5);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Dravania', 620, '5/2', 5);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Garlean Empire', 1459, '5/2', 5);
+
+
+
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ala Mhigo', 0, '6/1', 0);
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Limsa Lominsa', 936, '6/2', 6);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ul dah', 719, '6/2', 6);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gridania', 322, '6/2', 6);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ishgard', 603, '6/2', 6);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Sharlavan', 1286, '6/2', 6);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ala Mhigo', 0, '6/2', 6);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gyn Abania', 271, '6/2', 6);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Mor Dhonna', 571, '6/2', 6);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Dravania', 1008, '6/2', 6);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Garlean Empire', 1008, '6/2', 6);
+
+
+
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gyn Abania', 0, '7/1', 0);
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Limsa Lominsa', 859, '7/2', 7);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ul dah', 721, '7/2', 7);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gridania', 240, '7/2', 7);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ishgard', 471, '7/2', 7);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Sharlavan', 1188, '7/2', 7);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ala Mhigo', 271, '7/2', 7);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gyn Abania', 0, '7/2', 7);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Mor Dhonna', 508, '7/2', 7);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Dravania', 876, '7/2', 7);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Garlean Empire', 988, '7/2', 7);
+
+
+
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Mor Dhonna', 0, '8/1', 0);
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Limsa Lominsa', 405, '8/2', 8);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ul dah', 346, '8/2', 8);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gridania', 323, '8/2', 8);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ishgard', 305, '8/2', 8);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Sharlavan', 1066, '8/2', 8);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ala Mhigo', 571, '8/2', 8);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gyn Abania', 508, '8/2', 8);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Mor Dhonna', 0, '8/2', 8);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Dravania', 563, '8/2', 8);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Garlean Empire', 1170, '8/2', 8);
+
+
+
+
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Dravania', 0, '9/1', 0);
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Limsa Lominsa', 483, '9/2', 9);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ul dah', 781, '9/2', 9);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gridania', 667, '9/2', 9);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ishgard', 483, '9/2', 9);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Sharlavan', 620, '9/2', 9);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ala Mhigo', 1008, '9/2', 9);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gyn Abania', 876, '9/2', 9);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Mor Dhonna', 563, '9/2', 9);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Dravania', 0, '9/2', 9);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Garlean Empire', 1292, '9/2', 9);
+
+
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Garlean Empire', 0, '10/1', 0);
+
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Limsa Lominsa', 1355, '10/2', 10);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ul dah', 1300, '10/2', 10);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gridania', 1016, '10/2', 10);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ishgard', 1125, '10/2', 10);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Sharlavan', 1459, '10/2', 10);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Ala Mhigo', 1008, '10/2', 10);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Gyn Abania', 988, '10/2', 10);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Mor Dhonna', 1170, '10/2', 10);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Dravania', 1292, '10/2', 10);
+INSERT INTO table_destinations(name,price,path,parentid) VALUES('Garlean Empire', 0, '10/2', 10);
+
+
+SELECT * FROM table_destinations;
+
+
+
+DROP TABLE IF EXISTS table_destinations;
+================================================================================
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS table_drivers (name varchar(25), login_un varchar(25), login_p varchar(25), shipName varchar(25), shipCapacity integer, ferryFee integer);
+
+INSERT INTO table_drivers(name, login_un, login_p, shipName, shipCapacity, ferryFee) VALUES('Tancred Waters', 'thanW32', 'silverTongue', 'Stolen Carriage', 5, 0);
+
+
+INSERT INTO table_drivers(name, login_un, login_p, shipName, shipCapacity, ferryFee) VALUES('Graha Tia', 'graT24', 'travelerIzSoCul', 'Exarch Mobile', 1, 50);
+
+
+INSERT INTO table_drivers(name, login_un, login_p, shipName, shipCapacity, ferryFee) VALUES('Yshtola Rhul', 'yshR23', 'MatoyaMage', 'Runars Ship', 3, 200);
+
+
+INSERT INTO table_drivers(name, login_un, login_p, shipName, shipCapacity, ferryFee) VALUES('Alphinaud Leveilleur', 'alpL16', 'imnotanerd', 'The Ragnarok', 1000, 5000);
+
+
+INSERT INTO table_drivers(name, login_un, login_p, shipName, shipCapacity, ferryFee) VALUES('Alisaie Leveilleur', 'aliL16', 'swordsareBadAsh', 'The Ragnarok', 1000, 5000);
+
+
+INSERT INTO table_drivers(name, login_un, login_p, shipName, shipCapacity, ferryFee) VALUES('Urianger Augurelt', 'uriA29', 'iLuvBooks', 'Pixie Carriage', 2, 110);
+
+
+INSERT INTO table_drivers(name, login_un, login_p, shipName, shipCapacity, ferryFee) VALUES('Minfilia Warde', 'minW27', 'password', 'Tataru', 3, 150);
+
+
+INSERT INTO table_drivers(name, login_un, login_p, shipName, shipCapacity, ferryFee) VALUES('Krile Baldesion', 'kriB22', 'pikachu', 'Labyrinthos AirShip', 6, 300);
+
+
+SELECT * FROM table_drivers;
+
+
+
+DROP TABLE IF EXISTS table_drivers;
+================================================================================
+
+
+
+
+
+CREATE TABLE IF NOT EXISTS table_riders(name varchar(25), login_un varchar(25), login_p varchar(25) );
+
+
+INSERT INTO table_riders(name, login_un, login_p) VALUES('Guest', 'username', 'password');
+
+
+
+SELECT * FROM table_riders;
+
+
+
+DROP TABLE IF EXISTS table_riders;
+================================================================================
+//not we use _ because some names used are SQLite controls
+//unique id from database can be accessed with primary key 'rowid'
+
+
+
+CREATE TABLE IF NOT EXISTS table_transaction
+(
+	_date varchar(25),
+	_riderName varchar(25),
+	_driverName varchar(25),
+	_start varchar(25),
+	_end varchar(25),
+	_price integer
+);
+
+
+INSERT INTO table_transaction(_date, _riderName, _driverName, _start, _end, _price) VALUES('', '', '', '', '', );
+
+
+
+
+
+
+
+SELECT * FROM table_transaction;
+
+
+
+DROP TABLE IF EXISTS table_transaction;
+================================================================================
+
+
+
+
+
+
+
+
+
+
+
+

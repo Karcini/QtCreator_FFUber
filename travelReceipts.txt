@@ -1,0 +1,70 @@
+Date:2023.06.08
+Kenny
+Driver: Tancred Waters
+Ship: Stolen Carriage	capacity:5
+
+Ishgard-->Ul dah	Price: 576
+Driver Ship and Labor Fee	0g  x1
+		Trip Total = 576g
+------------------------------
+Date:2023.06.08
+Kenny
+Driver: Tancred Waters
+Ship: Stolen Carriage	capacity:5
+
+Sharlavan-->Limsa Lominsa	Price: 1034
+Limsa Lominsa-->Ishgard	Price: 523
+Ishgard-->Gyn Abania	Price: 471
+Driver Ship and Labor Fee	0g  x3
+		Trip Total = 2028g
+------------------------------
+Date:2023.06.08
+Kenny
+Driver: Urianger Augurelt
+Ship: Pixie Carriage	capacity:2
+
+Gridania-->Gyn Abania	Price: 240
+Gyn Abania-->Ishgard	Price: 471
+Driver Ship and Labor Fee	110g  x2
+		Trip Total = 931g
+------------------------------
+Date:2023.06.08
+Kenny
+Driver: Graha Tia
+Ship: Exarch Mobile	capacity:1
+
+Ul dah-->Gridania	Price: 514
+Gridania-->Ishgard	Price: 315
+Ishgard-->Sharlavan	Price: 976
+Driver Ship and Labor Fee	50g  x3
+		Trip Total = 1955g
+------------------------------
+Date:2023.06.08
+Guest
+Driver: Minfilia Warde
+Ship: Tataru	capacity:3
+
+Gridania-->Ul dah	Price: 514
+Ul dah-->Ala Mhigo	Price: 719
+Driver Ship and Labor Fee	150g  x2
+		Trip Total = 1533g
+------------------------------
+Date:2023.06.08
+Guest
+Driver: Yshtola Rhul
+Ship: Runars Ship	capacity:3
+
+Gridania-->Ishgard	Price: 315
+Ishgard-->Ala Mhigo	Price: 603
+Driver Ship and Labor Fee	200g  x2
+		Trip Total = 1318g
+------------------------------
+Date:2023.09.05
+Guest
+Driver: Yshtola Rhul
+Ship: Runars Ship	capacity:3
+
+Gridania-->Ala Mhigo	Price: 322
+Driver Ship and Labor Fee	200g  x1
+		Trip Total = 522g
+------------------------------

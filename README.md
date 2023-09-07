@@ -1,7 +1,7 @@
 Final project for C++ class, create a POS (point of sales) system that fully handles a process of a business.
 QT make version - Qt 5.15.2 MinGW 64bit
 
-To run this app, download the 'CIS17B_Final_exe' folder
+To run this app, download the 'QtCreator_FFUber_exe' folder
 fresh files of the database and receipt are found in the 'other files' folder
 
 
